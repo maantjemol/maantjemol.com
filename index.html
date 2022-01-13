@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/style.min.css">
+    <link rel="stylesheet" href="/Styles/skeleton.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cbc67d1f94.js" crossorigin="anonymous"></script>
+    <title>Portfolio - Manuel Mol</title>
+    <script src="/scripts/rockets.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+</head>
+<nav>
+    <div id="navigation">
+        <a href="#Title" onclick="createExplotion(MouseX, MouseY, 50);" id="homeNav" class="navItem">Home</a>
+        <a href="#My-Work" onclick="createExplotion(MouseX, MouseY, 50);" id="" class="navItem">My Work</a>
+        <a href="#Contact" onclick="createExplotion(MouseX, MouseY, 50);" id="" class="navItem">Contact</a>
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <div class="row C-title">
+            <div class="u-full-width">
+                <h1 class="title underline" id="Title">Looking for a</h1>
+                <h1 class="title underline">Webdeveloper?</h1>
+                <p class="introduction">Hi! I’m Manuel. I create functional and beautiful websites for businesses.</p>
+            </div>
+        </div>
+
+        <div class="row C-workTitle">
+            <div class="u-full-width">
+                <h2 class="title underline" id="My-Work">My Work:</h2>
+            </div>
+        </div>
+
+        <div class="row C-works">
+            <a class="one-half work column" target=”_blank” href="https://zorgverkeer.nl"> <h3>Zorgverkeer.com</h3></a>
+            <a class="one-half work column" target=”_blank” href="https://chrome.google.com/webstore/detail/zandvliet-tab/agakibbbadlmidealnmdbkbahpcpaecn"> <h3>Zandvliet New Tab Extension</h3></a>
+        </div>
+        <!-- <div class="row C-works">
+            <div class="one-half work column"></div>
+            <div class="one-half work column"></div>
+        </div> -->
+
+        <div class="row C-ContactTitle">
+            <div class="u-full-width">
+                <h2 class="title underline" id="Contact">Contact Me!</h2>
+                <p class="introduction">Interessted? Questions? Contact Me:</p>
+            </div>
+        </div>
+        <div class="row C-Contact">
+            <a onclick="createExplotion(MouseX, MouseY, 50);" target="_blank" href="https://www.linkedin.com/in/manuel-mol-435890184/" class="three columns social"><i class="fab fa-linkedin-in"></i></a>
+            <a class="three columns social" onclick="copyText()"><i class="fas fa-at"><p style="line-height: 140%;" id="emailSocial">maantjemol@gmail.com <br>Click To Copy</p></i></a>
+            <a onclick="createExplotion(MouseX, MouseY, 50);" target="_blank" href="https://github.com/maantjemol" class="three columns social"><i class="fab fa-github"></i></a>
+            <a onclick="createExplotion(MouseX, MouseY, 50);" target="_blank" href="https://dribbble.com/MaantjeMol" class="three columns social"><i class="fab fa-dribbble"></i></a>
+        </div>
+        <input type="text" value="maantjemol@gmail.com" id="copyText" style="display: none;">
+    </div>
+</body>
+</html>
