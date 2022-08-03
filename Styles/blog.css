@@ -1,0 +1,13 @@
+.underline {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(55%, transparent), color-stop(55%, #9CE1FF), color-stop(80%, #9CE1FF), color-stop(80%, transparent));
+  background-image: linear-gradient(transparent 55%, #9CE1FF 55%, #9CE1FF 80%, transparent 80%);
+  margin: auto;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+}

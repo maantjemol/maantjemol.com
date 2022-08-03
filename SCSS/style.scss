@@ -1,6 +1,5 @@
 @import "modules/particles";
-
-$accent_color : #9CE1FF;
+@import "utils";
 
 html{scroll-behavior:smooth}
 
@@ -38,17 +37,17 @@ a{
     margin: 1rem
 }
 
-.underline{
-    $gradient_height: 55%;
-    width: fit-content;
-    background-image: linear-gradient(transparent $gradient_height,$accent_color $gradient_height,$accent_color 80%,transparent 80%);
-    margin: auto;
-    font-weight: bold;
-}
+// .underline{
+//     $gradient_height: 55%;
+//     width: fit-content;
+//     background-image: linear-gradient(transparent $gradient_height,$accent_color $gradient_height,$accent_color 80%,transparent 80%);
+//     margin: auto;
+//     font-weight: bold;
+// }
 
-.title{
-    text-align: center;
-}
+// .title{
+//     text-align: center;
+// }
 
 .introduction{
     text-align: center;
@@ -113,9 +112,6 @@ a{
 
 .C-workTitle{
     margin-top: 20vh;
-}
-
-.C-works{
 }
 
 .C-ContactTitle{

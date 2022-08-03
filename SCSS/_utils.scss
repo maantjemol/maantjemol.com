@@ -1,0 +1,13 @@
+$accent_color : #9CE1FF;
+
+.underline{
+    $gradient_height: 55%;
+    width: fit-content;
+    background-image: linear-gradient(transparent $gradient_height,$accent_color $gradient_height,$accent_color 80%,transparent 80%);
+    margin: auto;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
